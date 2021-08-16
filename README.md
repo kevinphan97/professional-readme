@@ -1,15 +1,14 @@
-# Professional ReadMe Generator
+# Professional Readme Generator
 
-  ![badge](https://img.shields.io/badge/License--blue)
 
   ## Table of Contents
-  -[Description](#description)
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[License](#license)
-  -[Contribution](#contribution)
-  -[Testing](#testing)
-  -[Questions](#questions)
+  -[Description](#description)<br/>
+  -[Installation](#installation)<br/>
+  -[Usage](#usage)<br/>
+  -[License](#license)<br/>
+  -[Contribution](#contribution)<br/>
+  -[Testing](#testing)<br/>
+  -[Questions](#questions)<br/>
 
   ## Description
   This is a basic node application where a user is prompted with several questions, that when answered, will generate into a readme file.
@@ -21,13 +20,13 @@
   When the application is needed to be ran, simply type "node index.js" into the terminal and several questions will appear. Answer each one and at the end, all of the data will be stored and transfered to a new readme file.
 
   ## License
-  The license for this application is: ![badge](https://img.shields.io/badge/License--blue)
+  The license for this application is: 
 
   ## Contribution
-  If you would like to contribute to this application, please contact me in my questions section.
+   If you would like to contribute to this application, please contact me in my questions section.
 
   ## Testing
-  No testing needed.
+   No testing needed.
 
   ## Questions
   You can find my repositories on GitHub: [https://github.com/kevinphan97]
