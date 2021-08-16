@@ -9,7 +9,7 @@ const questions = [
         type: "checkbox",
         name: "license",
         message: "Please choose your license.",
-        choices: ["MIT", "Apache", "GNU-General-Public", "None"],
+        choices: ["MIT", "Apache", "GNU GPL v3", "None"],
         validate: licensingChoice => {
             if(licensingChoice){
                 return true;
@@ -131,8 +131,23 @@ function writeToFile(fileName, data) {
         if (err)
             throw err;
         console.log("The ReadMe has been created!");
-    });
-};
+    })
+    // .then((data) => {
+    //     if (data.license === "Apache") {
+    //         data.licenseBadge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+    //     }
+    //     else if (data.license === "GNU GPL v3") {
+    //         data.licenseBadge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+    //     }
+    //     else if (data.license === "MIT") {
+    //         data.licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    //     }
+    //     else {
+    //         return "";
+    //     };
+    //     writeToFile("README.md", data);
+    // })
+};  
 
 // TODO: Create a function to initialize app
 function init() {
