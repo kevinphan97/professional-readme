@@ -1,5 +1,5 @@
 # Professional Readme Generator
-
+  This readme generator was created using node.js and inquirer. Inquirer was used to create every single question and prompt that shows up in the command terminal and saves the responses. Node.js allows the user to run this through the terminal and prompts each user at every step until reaching the end.
 
   ## Table of Contents
   -[Description](#description)<br/>
